@@ -61,11 +61,6 @@ p {
   line-height: 22px;
 }
 
-a {
-  color: #84b2d1;
-  text-decoration: underline;
-}
-
 .button2 {
   display: inline-block;
   max-width: 144px;
@@ -2355,6 +2350,7 @@ a {
 }
 
 .nav-menu-2 {
+  display: none;
   padding-top: 7px;
 }
 
@@ -2533,7 +2529,7 @@ a {
 }
 
 .seccion-empresa {
-  padding: 53px 10px 72px;
+  padding: 115px 10px 72px;
   background-color: #fff;
   color: #fff;
   text-align: center;
@@ -2993,6 +2989,7 @@ a {
 }
 
 .footer-section {
+  position: static;
   margin-top: 0px;
   background-color: #252525;
 }
@@ -3019,6 +3016,7 @@ a {
 .footer-container {
   padding-top: 90px;
   padding-bottom: 90px;
+  text-align: left;
 }
 
 .link-block-12 {
@@ -3037,20 +3035,22 @@ a {
 }
 
 .image-21 {
-  max-width: 40%;
+  max-width: 20%;
 }
 
 .paragraph-14 {
   display: block;
   width: 280px;
   margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
   padding-left: 0px;
   font-family: Exo, sans-serif;
   color: #949494;
   font-size: 12px;
   line-height: 157%;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
 }
 
 .image-22 {
@@ -3059,8 +3059,15 @@ a {
 }
 
 .columns-6 {
-  margin-right: 0px;
-  margin-left: 0px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
 }
 
 .image-23 {
@@ -3088,7 +3095,7 @@ a {
 }
 
 .seccion-pagos {
-  padding: 53px 10px 72px;
+  padding: 53px 10px 0px;
   background-color: #fff;
   color: #fff;
   text-align: center;
@@ -3105,6 +3112,10 @@ a {
   padding-top: 63px;
   padding-bottom: 0px;
   background-color: #f5f8fc;
+}
+
+.div-block-17 {
+  display: none;
 }
 
 .container-15 {
@@ -3296,52 +3307,93 @@ a {
   align-items: stretch;
 }
 
+.terminos {
+  padding: 148px 10px 0px;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+}
+
+.terminos.project-page {
+  padding-top: 77px;
+  padding-bottom: 77px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 209, 198, 0.55)), to(rgba(100, 209, 198, 0.55))), url('../images/lake.jpg');
+  background-image: linear-gradient(180deg, rgba(100, 209, 198, 0.55), rgba(100, 209, 198, 0.55)), url('../images/lake.jpg');
+}
+
+.head-terminos {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Varela Round', sans-serif;
+  color: #84b2d1;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.herd-terminos {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Varela Round', sans-serif;
+  color: #84b2d1;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.texto-terminos {
+  display: block;
+  width: 800px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 0px;
+  font-family: Exo, sans-serif;
+  color: #868383;
+  font-size: 15px;
+  text-align: left;
+}
+
+.titulo-terminos {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Varela Round', sans-serif;
+  color: #84b2d1;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.div-term {
+  margin-top: 26px;
+  padding-bottom: 0px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.container-17 {
+  position: static;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.brand-2 {
+  float: none;
+}
+
+.div-block-18 {
+  display: block;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 .link-8 {
-  color: #84b2d1;
-}
-
-.link-9 {
-  color: #84b2d1;
-}
-
-.link-10 {
-  color: #84b2d1;
-}
-
-.link-11 {
-  color: #84b2d1;
-}
-
-.link-12 {
-  color: #84b2d1;
-}
-
-.link-13 {
-  color: #84b2d1;
-}
-
-.link-14 {
-  color: #84b2d1;
-}
-
-.link-15 {
-  color: #84b2d1;
-}
-
-.link-16 {
-  color: #84b2d1;
-}
-
-.link-17 {
-  color: #84b2d1;
-}
-
-.link-18 {
-  color: #84b2d1;
-}
-
-.link-footer {
-  width: 280px;
   color: #84b2d1;
 }
 
@@ -3503,6 +3555,9 @@ a {
   .seccion-footer.contact {
     padding-top: 0px;
   }
+  .seccion-empresa {
+    padding-top: 61px;
+  }
   .section-4 {
     height: 450px;
     background-position: -99px -199px;
@@ -3516,11 +3571,65 @@ a {
     padding-right: 0px;
     padding-left: 0px;
   }
+  .footer-section {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .image-21 {
+    max-width: 25%;
+  }
+  .paragraph-14 {
+    display: block;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .columns-6 {
+    position: static;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .seccion-pagos {
+    padding-bottom: 0px;
+  }
   .menu-button-2:hover {
     color: #84b2d1;
   }
   .menu-button-2.w--open:hover {
     background-color: #fff;
+  }
+  .column-20 {
+    display: inline-block;
+  }
+  .terminos {
+    padding-top: 149px;
+    padding-bottom: 0px;
+  }
+  .texto-terminos {
+    width: 700px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: left;
+  }
+  .div-term {
+    margin-top: 31px;
+    padding-bottom: 0px;
+  }
+  .brand-2 {
+    float: none;
+  }
+  .div-block-18 {
+    display: block;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
   }
 }
 
@@ -3920,16 +4029,24 @@ a {
     width: 500px;
   }
   .footer-container {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 45px 20px 38px;
+  }
+  .image-21 {
+    display: block;
+    max-width: 30%;
+    margin-right: auto;
+    margin-left: auto;
   }
   .paragraph-14 {
-    padding-left: 7px;
+    display: block;
+    width: auto;
+    padding-left: 0px;
+    text-align: center;
   }
   .seccion-pagos {
     margin-top: 0px;
-    padding-top: 47px;
-    padding-bottom: 57px;
+    padding-top: 18px;
+    padding-bottom: 0px;
   }
   .column-15 {
     margin-top: 18px;
@@ -3958,6 +4075,10 @@ a {
   .column-19 {
     margin-bottom: 28px;
   }
+  .column-20 {
+    position: static;
+    text-align: center;
+  }
   .column-21 {
     padding-bottom: 35px;
   }
@@ -3971,8 +4092,32 @@ a {
     margin-top: 0px;
     padding-top: 0px;
   }
+  .terminos {
+    margin-top: 0px;
+    padding-top: 150px;
+    padding-bottom: 0px;
+  }
+  .texto-terminos {
+    width: 500px;
+    padding-bottom: 0px;
+  }
+  .div-term {
+    margin-top: 27px;
+    padding-bottom: 0px;
+  }
+  .brand-2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .div-block-18 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .image-35 {
-    margin-top: 14px;
+    margin-top: 17px;
   }
 }
 
@@ -4122,6 +4267,7 @@ a {
     padding-right: 7px;
     padding-left: 13px;
     font-size: 28px;
+    line-height: 30px;
   }
   .sectionequipo {
     padding-bottom: 0px;
@@ -4413,6 +4559,9 @@ a {
   .seccion-footer.contact {
     padding-top: 0px;
   }
+  .seccion-empresa {
+    margin-top: 9px;
+  }
   .div-block-9 {
     margin-left: 72px;
   }
@@ -4451,6 +4600,11 @@ a {
   .text-block-28 {
     width: 280px;
     font-family: Exo, sans-serif;
+    text-align: left;
+  }
+  .footer-container {
+    padding-top: 35px;
+    padding-bottom: 33px;
   }
   .image-21 {
     max-width: 55%;
@@ -4459,7 +4613,12 @@ a {
     padding-left: 7px;
     font-family: Exo, sans-serif;
   }
+  .seccion-pagos {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   .div-block-17 {
+    display: none;
     margin-top: 4px;
   }
   .column-15 {
@@ -4517,8 +4676,51 @@ a {
   .image-34 {
     padding-top: 11px;
   }
+  .terminos {
+    margin-top: 0px;
+    padding-bottom: 0px;
+  }
+  .head-terminos {
+    line-height: 33px;
+  }
+  .herd-terminos {
+    width: auto;
+    padding-right: 7px;
+    padding-left: 13px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .texto-terminos {
+    width: 280px;
+    padding-bottom: 0px;
+    font-family: Exo, sans-serif;
+    text-align: left;
+  }
+  .titulo-terminos {
+    width: auto;
+    padding-right: 7px;
+    padding-left: 13px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .div-term {
+    margin-top: 27px;
+    padding-bottom: 0px;
+  }
+  .container-17 {
+    position: static;
+    display: block;
+    overflow: visible;
+    text-align: center;
+  }
+  .brand-2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
   .image-35 {
-    margin-top: 22px;
+    margin-top: 9px;
   }
 }
 
