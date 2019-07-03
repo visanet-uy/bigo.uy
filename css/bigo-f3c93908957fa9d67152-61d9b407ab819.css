@@ -775,7 +775,7 @@ a {
 }
 
 .container-2 {
-  padding-top: 184px;
+  padding-top: 166px;
   padding-right: 1px;
   text-align: right;
 }
@@ -2661,10 +2661,10 @@ a {
 
 .paragraph-8 {
   display: block;
-  width: 640px;
+  width: auto;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 30px;
+  padding-top: 0px;
   font-family: Exo, sans-serif;
   color: #9b9b9b;
   font-size: 16px;
@@ -2674,7 +2674,7 @@ a {
 
 .section-4 {
   height: 600px;
-  background-image: url('../images/imagen-pos2.jpg');
+  background-image: url('../images/Bigo-imagen-pos.jpg');
   background-position: -1px -236px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3181,6 +3181,8 @@ a {
 
 .columns-7 {
   margin-top: 46px;
+  margin-right: 130px;
+  margin-left: 130px;
 }
 
 .column-19 {
@@ -3345,6 +3347,148 @@ a {
   color: #84b2d1;
 }
 
+.presentacion-copy {
+  height: auto;
+}
+
+.seccion-empresa-copy {
+  padding: 53px 10px 72px;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+}
+
+.seccion-empresa-copy.project-page {
+  padding-top: 77px;
+  padding-bottom: 77px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 209, 198, 0.55)), to(rgba(100, 209, 198, 0.55))), url('../images/lake.jpg');
+  background-image: linear-gradient(180deg, rgba(100, 209, 198, 0.55), rgba(100, 209, 198, 0.55)), url('../images/lake.jpg');
+}
+
+.grid {
+  margin-right: 100px;
+  margin-left: 100px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.image-36 {
+  text-align: center;
+}
+
+.column-24 {
+  text-align: center;
+}
+
+.titulo-promociones {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Varela Round', sans-serif;
+  color: #84b2d1;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.titulo-grilla-promos {
+  display: block;
+  width: 200px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  font-family: Exo, sans-serif;
+  color: #84b2d1;
+  font-size: 20px;
+  line-height: 157%;
+  font-weight: 500;
+  text-align: left;
+}
+
+.titulo-categorias-promos {
+  display: block;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Varela Round', sans-serif;
+  color: #84b2d1;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.beneficio {
+  display: block;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  font-family: Exo, sans-serif;
+  color: #9b9b9b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.texto-bases {
+  display: block;
+  width: auto;
+  margin-top: 22px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 32px;
+  font-family: Exo, sans-serif;
+  color: #9b9b9b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.slider-3 {
+  width: 500px;
+  height: 380px;
+  margin-bottom: 84px;
+}
+
+.slide-4 {
+  background-image: url('../images/1.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
+}
+
+.slide-5 {
+  background-image: url('../images/2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.div-block-18 {
+  margin-top: 17px;
+}
+
+.titulo-categorias-tablet {
+  display: block;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Varela Round', sans-serif;
+  color: #84b2d1;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.text-block-33 {
+  font-family: Exo, sans-serif;
+  text-align: right;
+}
+
+.link-block-17 {
+  text-align: right;
+}
+
 @media (max-width: 991px) {
   .navbar {
     padding-top: 19px;
@@ -3503,6 +3647,9 @@ a {
   .seccion-footer.contact {
     padding-top: 0px;
   }
+  .paragraph-8 {
+    text-align: left;
+  }
   .section-4 {
     height: 450px;
     background-position: -99px -199px;
@@ -3521,6 +3668,20 @@ a {
   }
   .menu-button-2.w--open:hover {
     background-color: #fff;
+  }
+  .columns-7 {
+    margin-right: 27px;
+    margin-left: 27px;
+  }
+  .presentacion-copy {
+    height: 170px;
+    background-image: none;
+  }
+  .titulo-categorias-promos {
+    text-align: left;
+  }
+  .titulo-categorias-tablet {
+    text-align: left;
   }
 }
 
@@ -3973,6 +4134,44 @@ a {
   }
   .image-35 {
     margin-top: 14px;
+  }
+  .presentacion-copy {
+    height: 170px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+    background-image: linear-gradient(180deg, transparent, transparent), linear-gradient(180deg, transparent, transparent);
+  }
+  .seccion-empresa-copy {
+    margin-top: 0px;
+    padding-top: 47px;
+    padding-bottom: 57px;
+  }
+  .titulo-grilla-promos {
+    margin-top: 10px;
+    padding-left: 7px;
+  }
+  .titulo-categorias-promos {
+    margin-top: 0px;
+    margin-left: 29px;
+  }
+  .beneficio {
+    width: 500px;
+  }
+  .texto-bases {
+    width: 500px;
+    font-weight: 400;
+  }
+  .slider-3 {
+    margin-left: 35px;
+  }
+  .div-block-18 {
+    padding-left: 34px;
+  }
+  .titulo-categorias-tablet {
+    margin-top: 0px;
+    margin-left: 29px;
+  }
+  .text-block-33 {
+    margin-left: 33px;
   }
 }
 
@@ -4485,6 +4684,7 @@ a {
     text-align: left;
   }
   .column-17 {
+    margin-top: 35px;
     margin-bottom: 28px;
   }
   .column-18 {
@@ -4492,6 +4692,8 @@ a {
   }
   .columns-7 {
     margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .column-19 {
     margin-bottom: 28px;
@@ -4519,6 +4721,64 @@ a {
   }
   .image-35 {
     margin-top: 22px;
+  }
+  .presentacion-copy {
+    height: 20px;
+    margin-bottom: 0px;
+    padding-top: 129px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+    background-image: linear-gradient(180deg, transparent, transparent), linear-gradient(180deg, transparent, transparent);
+  }
+  .titulo-promociones {
+    width: auto;
+    padding-right: 7px;
+    padding-left: 13px;
+    font-size: 28px;
+  }
+  .titulo-grilla-promos {
+    margin-top: 0px;
+    padding-left: 7px;
+    font-family: Exo, sans-serif;
+    text-align: left;
+  }
+  .titulo-categorias-promos {
+    width: auto;
+    margin-top: 4px;
+    padding-right: 7px;
+    padding-left: 0px;
+    font-size: 28px;
+  }
+  .beneficio {
+    width: 260px;
+    font-family: Exo, sans-serif;
+  }
+  .texto-bases {
+    width: 260px;
+    font-family: Exo, sans-serif;
+  }
+  .slider-3 {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  .container-17 {
+    position: relative;
+  }
+  .div-block-18 {
+    margin-left: 33px;
+    padding-left: 0px;
+  }
+  .section-5 {
+    margin-top: 27px;
+  }
+  .titulo-categorias-tablet {
+    width: auto;
+    margin-top: 4px;
+    padding-right: 7px;
+    padding-left: 30px;
+    font-size: 28px;
   }
 }
 
