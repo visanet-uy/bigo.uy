@@ -63,7 +63,7 @@ p {
 
 a {
   color: #84b2d1;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .button2 {
@@ -3158,7 +3158,7 @@ a {
 
 .contacto-1 {
   display: block;
-  width: 200px;
+  width: 210px;
   margin-top: 25px;
   margin-right: auto;
   margin-left: auto;
@@ -3394,7 +3394,7 @@ a {
 .titulo-grilla-promos {
   display: block;
   width: 200px;
-  margin-top: 25px;
+  margin-top: 8px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 0px;
@@ -3404,6 +3404,7 @@ a {
   line-height: 157%;
   font-weight: 500;
   text-align: left;
+  text-decoration: none;
 }
 
 .titulo-categorias-promos {
@@ -3421,6 +3422,7 @@ a {
 .beneficio {
   display: block;
   width: auto;
+  margin-top: 18px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 0px;
@@ -3429,6 +3431,7 @@ a {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .texto-bases {
@@ -3438,7 +3441,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   padding-top: 0px;
-  padding-bottom: 32px;
+  padding-bottom: 12px;
   font-family: Exo, sans-serif;
   color: #9b9b9b;
   font-size: 16px;
@@ -3453,6 +3456,7 @@ a {
 }
 
 .slide-4 {
+  margin-top: 0px;
   background-image: url('../images/1.jpg');
   background-position: 50% 0%;
   background-size: cover;
@@ -3464,6 +3468,10 @@ a {
   background-size: cover;
 }
 
+.container-17 {
+  margin-top: 41px;
+}
+
 .div-block-18 {
   margin-top: 17px;
 }
@@ -3471,6 +3479,7 @@ a {
 .titulo-categorias-tablet {
   display: block;
   width: auto;
+  margin-top: 27px;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Varela Round', sans-serif;
@@ -3487,6 +3496,33 @@ a {
 
 .link-block-17 {
   text-align: right;
+}
+
+.bold-text-9 {
+  width: 200px;
+}
+
+.boton-cupones {
+  background-color: #58ace4;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.mask-3 {
+  margin-top: 31px;
+}
+
+.div-block-19 {
+  height: 1px;
+  background-color: #84b2d1;
+}
+
+.image-37 {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.div-block-20 {
+  margin-top: 43px;
 }
 
 @media (max-width: 991px) {
@@ -3677,11 +3713,19 @@ a {
     height: 170px;
     background-image: none;
   }
+  .titulo-grilla-promos {
+    width: auto;
+    text-align: center;
+  }
   .titulo-categorias-promos {
     text-align: left;
   }
   .titulo-categorias-tablet {
     text-align: left;
+  }
+  .image-37 {
+    margin-top: 35px;
+    margin-bottom: 39px;
   }
 }
 
@@ -4150,7 +4194,7 @@ a {
     padding-left: 7px;
   }
   .titulo-categorias-promos {
-    margin-top: 0px;
+    margin-top: 9px;
     margin-left: 29px;
   }
   .beneficio {
@@ -4169,9 +4213,14 @@ a {
   .titulo-categorias-tablet {
     margin-top: 0px;
     margin-left: 29px;
+    padding-right: 22px;
+    text-align: center;
   }
   .text-block-33 {
     margin-left: 33px;
+  }
+  .boton-cupones {
+    margin-left: 35px;
   }
 }
 
@@ -4746,6 +4795,7 @@ a {
   .titulo-categorias-promos {
     width: auto;
     margin-top: 4px;
+    margin-right: 20px;
     padding-right: 7px;
     padding-left: 0px;
     font-size: 28px;
@@ -4777,8 +4827,11 @@ a {
     width: auto;
     margin-top: 4px;
     padding-right: 7px;
-    padding-left: 30px;
+    padding-left: 1px;
     font-size: 28px;
+  }
+  .boton-cupones {
+    margin-left: 31px;
   }
 }
 
